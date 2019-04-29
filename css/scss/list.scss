@@ -1,0 +1,503 @@
+#select {
+    margin-top: 15px;
+
+    .select_tops {
+        width: 1200px;
+        height: 34px;
+        margin: 0 auto;
+
+        .select_top {
+            font-size: 12px;
+            color: #333;
+        }
+    }
+
+    .select_bottom {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+
+        .select_left {
+            width: 230px;
+            float: left;
+
+            .nav_sele_lis {
+                overflow: hidden;
+
+                .sele_lis_lis {
+                    width: 228px;
+                    height: 36px;
+                    background: url(http://photo.no5.com.cn/page_2014/images/h3bg.jpg) repeat-x;
+                    line-height: 36px;
+                    cursor: pointer;
+                    font-size: 13px;
+                    color: #333;
+                    font-weight: bold;
+
+                    .nav_lis_logo {
+                        background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat 0 -248px;
+                        width: 15px;
+                        height: 14px;
+                        float: left;
+                        margin: 10px 10px 0px 12px;
+                    }
+                }
+
+                .opens {
+                    li {
+                        line-height: 26px;
+                        height: 26px;
+                        cursor: pointer;
+                        font-size: 12px;
+                        box-sizing: border-box;
+                        padding-left: 40px;
+
+                        &:hover {
+                            color: #02a3f0;
+                        }
+                    }
+                }
+
+            }
+
+            .nav_sele_botm {
+                border: 1px solid #e4e4e4;
+                margin-top: 10px;
+                margin-bottom: 10px;
+
+                p {
+                    width: 226px;
+                    height: 33px;
+                    line-height: 33px;
+                    margin: 1px;
+                    background: url(http://photo.no5.com.cn/page_2014/images/p2lbg.jpg) repeat-x;
+                    color: #333;
+                    font-family: microsoft yahei;
+                    font-size: 14px;
+                    font-weight: bold;
+                    text-align: center;
+                    border-bottom: 1px solid #e4e4e4;
+                }
+
+                ul {
+                    width: 228px;
+
+
+                    .nav_sele_botm_bg {
+                        border-bottom: 1px dashed #e4e4e4;
+                        text-align: center;
+                        padding: 6px;
+                        width: 216px;
+                        font-size: 12px;
+                        background: #fff;
+                        color: #666;
+                        font-family: arial, \5b8b\4f53;
+
+                        .nav_bg_price {
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: red;
+                        }
+                    }
+                }
+
+                .nav_sele_botm_bg1 {
+                    padding: 15px 10px;
+                    margin-bottom: 0px;
+                    width: 208px;
+                    height: 82px;
+                    overflow: hidden;
+
+                    .nav_left_bg2 {
+                        width: 81px;
+                        float: left;
+
+
+                        img {
+                            width: 81px;
+                            height: 81px;
+                        }
+                    }
+
+                    .nav_right_tops {
+                        float: right;
+                        width: 100px;
+                        font-size: 12px;
+                        background: #fff;
+                        color: #666;
+                        font-family: arial, \5b8b\4f53;
+                    }
+
+                    .nav_right_bts {
+                        float: right;
+                        color: red;
+                        margin-top: 5px;
+                    }
+                }
+            }
+
+        }
+
+        .select_right {
+            width: 968px;
+            float: left;
+            margin-left: 2px;
+
+            .select_right_top {
+                border: 1px solid #e4e4e4;
+                width: 958px;
+                float: left;
+                margin-bottom: 10px;
+                font-size: 12px;
+                background: #fff;
+                color: #666;
+                font-family: arial, \5b8b\4f53;
+
+                .select_right_top_bg {
+                    width: 293px;
+                    float: left;
+                    padding: 13px;
+
+                    .right_top_bgs3 {
+                        float: left;
+
+                        img {
+                            width: 140px;
+                            height: 140px;
+                        }
+                    }
+
+                    .top_bg3_bt {
+                        float: left;
+                        width: 153px;
+
+                        p {
+                            margin: 20px 0;
+                        }
+
+                        span {
+                            color: red;
+                            font-size: 16px;
+                            font-weight: bold;
+                        }
+
+                        div {
+                            margin-top: 20px;
+                            width: 80px;
+                            height: 24px;
+                            line-height: 24px;
+                            border-radius: 3px;
+                            background: #fc1c5a;
+                            text-align: center;
+                            color: #fff;
+                        }
+
+                    }
+                }
+
+            }
+
+            .select_lis_dq {
+                width: 914px;
+                border: 3px solid #f4f4f4;
+                float: left;
+                padding: 20px;
+                padding-bottom: 15px;
+
+                .lis_diqu {
+                    width: 914px;
+                    border-bottom: 1px solid #f4f4f4;
+                    float: left;
+                    padding: 3px 0;
+                }
+
+                .zw_dqs {
+                    float: left;
+                    height: 20px;
+                    border: 1px solid #fff;
+                    margin-right: 3px;
+                    padding: 0px 10px;
+                    line-height: 20px;
+                    font-family: Verdana;
+                    cursor: pointer;
+                    color: #0066cc;
+                    font-size: 12px;
+                }
+
+                .lis_diqus {
+                    width: 914px;
+                    border-bottom: 1px solid #f4f4f4;
+                    float: left;
+                    padding: 3px 0;
+
+                    .zw_dq {
+                        width: 125px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        height: 20px;
+                        padding-top: 4px;
+                        float: left;
+                        margin-left: 20px;
+                        text-align: center;
+                    }
+
+                    .lis_diques {
+                        box-sizing: border-box;
+                        padding: 0 0 0 40px;
+                    }
+
+
+                }
+
+                .lis_diqu,
+                .lis_diqus {
+                    .lis_diqu_name {
+                        width: 70px;
+                        float: left;
+                        text-align: right;
+                        color: #000;
+                        font-weight: bold;
+                        line-height: 24px;
+                        font-size: 12px;
+                    }
+
+                    .lis_diqu_buxian {
+                        background: #02a3f0;
+                        float: left;
+                        height: 20px;
+                        border: 1px solid #fff;
+                        margin-right: 16px;
+                        line-height: 20px;
+                        font-family: Verdana;
+                        cursor: default;
+                        color: #fff;
+                        padding: 0 4px;
+                        margin-top: 1px;
+                    }
+
+                    .lis_diques {
+                        float: left;
+                        height: 100%;
+
+
+                        span {
+                            float: left;
+                            height: 20px;
+                            border: 1px solid #fff;
+                            margin-right: 3px;
+                            padding: 0px 10px;
+                            line-height: 20px;
+                            font-family: Verdana;
+                            cursor: pointer;
+                            color: #0066cc;
+                            font-size: 12px;
+
+                            &:hover {
+                                background: #02a3f0;
+                                color: #fff;
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .nav_xiaol_hp {
+                margin-top: 10px;
+                width: 938px;
+                height: 26px;
+                background: url(http://photo.no5.com.cn/page_2014/images/filbg.jpg) repeat-x;
+                border: 1px solid #eee;
+                border-top: 2px solid #15ade0;
+                float: left;
+                padding: 5px 10px;
+                font-size: 12px;
+                color: #666;
+
+                .nav_xiaol_hp1 {
+                    float: left;
+                    height: 24px;
+                    width: 400px;
+
+                    span {
+                        float: left;
+                        margin: 4px 0 0 0;
+                    }
+
+                    #xiaoliang {
+                        float: left;
+                        height: 24px;
+                        cursor: pointer;
+                        border: 1px solid #CECBCE;
+                        font-weight: bold;
+                        height: 24px;
+                        margin-right: 5px;
+                        line-height: 24px;
+                        padding: 0 10px;
+                    }
+
+                    #haopd {
+                        height: 24px;
+                        border: 1px solid #CECBCE;
+                        background: #f6f6f6;
+                        margin-right: 5px;
+                        line-height: 24px;
+                        padding: 0 10px;
+                        float: left;
+                        cursor: pointer;
+                    }
+
+                    #jiage {
+                        height: 24px;
+                        border: 1px solid #CECBCE;
+                        background: #f6f6f6;
+                        border: 1px solid #cecbce;
+                        margin-right: 5px;
+                        line-height: 24px;
+                        padding: 0 10px;
+                        float: left;
+                        cursor: pointer;
+
+                    }
+
+                    #haopd {
+                        float: left;
+
+                    }
+
+                    #toptime {
+                        float: left;
+                        height: 24px;
+                        border: 1px solid #CECBCE;
+                        background: #f6f6f6;
+                        border: 1px solid #cecbce;
+                        margin-right: 5px;
+                        line-height: 24px;
+                        padding: 0 10px;
+                        cursor: pointer;
+                    }
+                }
+
+                .nav_xiaol_hp2 {
+                    float: right;
+
+                    .nav_les1 {
+                        float: left;
+                        height: 22px;
+                        padding: 2px 15px 2px 0;
+                        line-height: 22px;
+                        font-family: verdana;
+                        color: #fc1c5a;
+                    }
+
+                    .nav_les2 {
+                        float: right;
+                        width: 180px;
+                        height: 26px;
+                        border-left: 1px solid #e7e3e7;
+
+                        .nav_hp_s,
+                        .nav_hp_back,
+                        .nav_hp_next {
+                            float: left;
+                            margin: 0 5px;
+                            line-height: 26px;
+                            cursor: pointer;
+                        }
+
+                        .nav_hp_s {
+                            span {
+                                color: red;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+        .nav_lis_hzp {
+            margin-top: 10px;
+            float: left;
+            overflow: hidden;
+
+            .list_bgs1 {
+                width: 214px;
+                float: left;
+                background: #fff;
+                padding: 13px;
+                font-size: 12px;
+                color: #666;
+
+                &:hover {
+                    background: #f4f4f4;
+                }
+
+                img {
+                    margin: 7px;
+                    height: 200px;
+                    width: 200px;
+                }
+
+                p {
+                    display: block;
+                    height: 32px;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+
+                .prices_bj,
+                .prices {
+                    color: #ff1a3a;
+                }
+
+                .prices_bj {
+                    font-size: 12px;
+                }
+
+                .prices {
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+
+                .goumai {
+                    margin-top: 13px;
+
+                    .jiarugoum {
+                        display: block;
+                        float: left;
+                        padding: 0 15px;
+                        height: 24px;
+                        line-height: 24px;
+                        border-radius: 3px;
+                        background: #fc1c5a;
+                        text-align: center;
+                        color: #fff;
+                        font-size: 12px;
+                        cursor: pointer;
+                    }
+
+                    .souchans {
+                        background: #efefef;
+                        color: #666;
+                        margin-left: 10px;
+                        border: 1px solid #dfdfdf;
+                        height: 22px;
+                        line-height: 22px;
+                        float: left;
+                        padding: 0 15px;
+                        border-radius: 3px;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+
+
+
+    }
+}

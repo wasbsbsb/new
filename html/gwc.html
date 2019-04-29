@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>我的购物车</title>
+</head>
+<link rel="stylesheet" href="../css/css/gwc.css">
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/gwc.js"></script>
+
+<body>
+    <div class="gwc_box">
+        <div class="gwc_conten">
+            <div class="gw_top">
+                <div class="gw_left1">
+                    <img src="http://www.no5.com.cn/images/cart-icon.png" alt="" srcset="">
+                </div>
+                <ul class="gw_left2">
+                    <li>收藏夹</li>
+                    <li>新会员注册/登录</li>
+                    <li>我的账户</li>
+                    <li>收藏本站</li>
+                </ul>
+            </div>
+            <table class="gw_xh" cellspacing='0'>
+                <thead class="biaotou">
+                    <tr class="gw_name">
+                        <th class="gw_bt">序号</th>
+                        <th class="gw_bt">商品名称</th>
+                        <th class="gw_bt">规格</th>
+                        <th class="gw_bt">一般价</th>
+                        <th class="gw_bt">NO5价</th>
+                        <th class="gw_bt">数量</th>
+                        <th class="gw_bt">付款小计</th>
+                        <th class="gw_bt">转入收藏夹</th>
+                        <th class="gw_bt">删除</th>
+                    </tr>
+                </thead>
+                <tbody id="hezi_zhuan">
+
+                </tbody>
+
+            </table>
+            <div id="gw_zonjia">
+                应付商品金额： <span id="spzj">￥<span id="spzjs"></span></span>元
+            </div>
+            <div class="gw_db">
+                <div class="gw_db1">
+                    输入兑换劵账号：<input type="text"><input type="button" value="兑换商品">
+                </div>
+                <div class="gw_db2">
+                    <div class="last_qinkon unline colors qinkons">清空购物车</div>
+                    <div class="last_qinkon">
+                        <img src="http://www.no5.com.cn/images/btn-go-on.png" alt="" srcset="" onclick="window.close()">
+                    </div>
+                    <div class="last_qinkon">
+                        <img src="http://www.no5.com.cn/images/btn-go-sett.png" alt="" srcset=""
+                            onclick="alert('你已完成浏览！')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+.gwc_box {
+    width: 100%;
+    height: 100%;
+
+    .gwc_conten {
+        width: 950px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .gw_top {
+        width: 100%;
+        height: 68px;
+
+        .gw_left1 {
+            width: 475;
+            height: 100%;
+            float: left;
+        }
+
+        .gw_left2 {
+            float: left;
+            width: 475px;
+            height: 100%;
+            list-style: none;
+            padding: 50px 0 0 0;
+            box-sizing: border-box;
+
+            li {
+                float: right;
+                font-size: 12px;
+                color: #333;
+                text-align: center;
+                width: 100px;
+                height: 16px;
+                border-right: 1px solid #333;
+
+                &:nth-last-child(4) {
+                    border: none;
+                }
+
+                &:hover {
+                    color: red;
+                }
+
+            }
+
+        }
+    }
+
+    .gw_xh {
+        width: 100%;
+        border: 1px solid #ccc;
+        font-size: 12px;
+
+        .biaotou {
+            width: 948px;
+            text-align: center;
+
+            tr {
+                background: url(http://www.no5.com.cn/images/cart-tip-bg.png);
+
+                th {
+                    height: 35px;
+                }
+            }
+        }
+
+        tbody {
+            width: 100%;
+
+            tr {
+                height: 33px;
+                line-height: 33px;
+
+                td {
+                    text-align: center;
+
+                    .shulz {
+                        width: 50px;
+                        color: #003399;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                }
+
+                .zitileft {
+                    text-align: left;
+                    color: #003399;
+                }
+            }
+        }
+    }
+
+    .gw_db {
+        font-size: 12px;
+        width: 100%;
+        height: 30px;
+        margin-top: 30px;
+
+        .gw_db1 {
+            width: 620px;
+            height: 100%;
+            float: left;
+
+            input {
+                margin: 0 10px;
+            }
+        }
+
+
+        .gw_db2 {
+            width: 330px;
+            height: 100%;
+            float: left;
+
+            .last_qinkon {
+                float: left;
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+.unline {
+    text-decoration: underline;
+    line-height: 30px;
+
+    &:hover {
+        color: red;
+    }
+}
+
+#gw_zonjia {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    text-align: right;
+    line-height: 30px;
+
+    #spzj {
+        color: red;
+    }
+
+    #spzjs {
+        font-size: 16px;
+    }
+}
+
+.colors:hover {
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

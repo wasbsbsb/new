@@ -1,0 +1,406 @@
+#banna_bg {
+    height: 620px;
+
+
+    .jichenbg {
+        background: inherit;
+    }
+
+    .hezijz,
+    .hezizhon,
+    .hezixia {
+        position: relative;
+    }
+
+    .hezijz {
+        height: 400px;
+    }
+
+    .hezizhon {
+        height: 33px;
+    }
+
+    .hezixia {
+        height: 187px;
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+
+        .img_bg_last {
+            height: 187px;
+            width: 970px;
+            position: absolute;
+            left: 230px;
+
+            li {
+                float: left;
+                margin: 0 5px;
+            }
+        }
+    }
+
+    .banna_bg_center {
+        margin: 0 auto;
+        width: 1200px;
+        height: 100%;
+        position: relative;
+
+        .xiaologo {
+            display: block;
+            float: left;
+            width: 19px;
+            height: 19px;
+            background: url(../../images/shouye.images/detail.gif) no-repeat -409px -30px;
+            margin-top: 6px;
+            margin-right: 6px;
+        }
+
+        .banna_xialb {
+            position: absolute;
+            left: 260px;
+            width: 600px;
+            height: 33px;
+            transition: top 1s;
+
+
+
+            &:nth-child(2) {
+                top: 33px;
+            }
+
+
+            .xiao_zhiti {
+                font-size: 12px;
+                color: #666;
+                line-height: 30px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+            }
+        }
+
+
+        #lunbotu {
+            position: absolute;
+            left: 231px;
+            top: 0;
+            width: 765px;
+            height: 400px;
+
+            .lbt_bg {
+                margin: 0;
+                display: none;
+
+                .xiaokuai {
+                    position: absolute;
+                    left: 770px;
+                    top: 5px;
+                    width: 190px;
+
+                    .xiaokbg {
+                        width: 190px;
+                        height: 130px;
+                    }
+                }
+
+            }
+        }
+
+        #lunbotubtns {
+            width: 265px;
+            height: 25px;
+            position: absolute;
+            left: 250px;
+            bottom: 10px;
+
+            .btns {
+                font-family: Arial, Verdana;
+                text-indent: 0.25em;
+                text-indent: 0.3\8;
+                padding: 4px;
+                display: block;
+                float: left;
+                width: 14px;
+                height: 14px;
+                background: #e8e8e8;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                margin: 0 5px;
+                overflow: hidden;
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    .centerqie {
+        overflow: hidden;
+    }
+}
+
+.content {
+    .content_jz {
+        width: 1200px;
+        margin: 0 auto;
+
+        .box_qiang {
+            height: 530px;
+            border-bottom: #e4e4e4 solid 1px;
+
+            h2 {
+                border-bottom: 2px solid red;
+                padding: 30px 0 8px 2px;
+            }
+
+            nav {
+                height: 450px;
+
+                li {
+                    width: 287px;
+                    height: 420px;
+                    border: 1px solid #e4e4e4;
+                    float: left;
+                    margin: 10px 5px;
+
+                    &:hover {
+                        border-color: red;
+                    }
+
+                    .qiang_time {
+                        height: 38px;
+                        background: #f8f7f5 url(../../images/shouye.images/clock.jpg) no-repeat center left;
+                        background-position: 30px 5px;
+                        width: 214px;
+                        line-height: 38px;
+                        color: #999;
+                        padding-left: 73px;
+                        font-size: 12px;
+
+                        span {
+                            font-size: 18px;
+                            color: red;
+                            font-weight: bold;
+                        }
+                    }
+
+                    .qiang_img {
+                        height: 260px;
+                        text-align: center;
+
+                        img {
+                            width: 260px;
+                            height: 260px;
+                        }
+                    }
+
+                    .qiang_jieshao {
+                        height: 32px;
+                        font-weight: bold;
+                        line-height: 18px;
+                        height: 32px;
+                        padding: 0 13px;
+                        width: 261px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        color: #666;
+                        font-size: 12px;
+                    }
+
+                    .qiang_price {
+                        box-sizing: border-box;
+                        padding-left: 20px;
+                        height: 65px;
+                        background: url(../../images/shouye.images/i_03.jpg) no-repeat center center;
+                        color: #fff;
+                        font-size: 18px;
+                        line-height: 65px;
+
+                        span {
+                            font-size: 36px;
+                            font-family: Arial;
+                        }
+                    }
+
+                    .qiang_num {
+                        text-align: right;
+                        box-sizing: border-box;
+                        padding-right: 20px;
+                        color: #666;
+                        font-size: 12px;
+
+                        .qiang_rs {
+                            color: #ff1a3a;
+                            margin-right: 4px;
+                            font-size: 14px;
+                            font-family: Arial;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .xuanxiaka {
+            margin: 20px 0 0 0;
+
+            .xuanxk_top {
+                height: 40px;
+                background: url(../../images/shouye.images/tabs_bg.jpg) bottom;
+                border-bottom: 2px solid #d0d0d0;
+
+                li {
+                    float: left;
+                    height: 40px;
+                    color: #333;
+                    cursor: pointer;
+                    padding: 0 82px;
+                    background: url(http://photo.no5.com.cn/page_2014/images/tabsli_bg.jpg) no-repeat right bottom;
+                    text-align: center;
+                    font-family: microsoft yahei;
+                    font-size: 18px;
+                    font-weight: bold;
+
+                    &:hover {
+                        border-bottom: #0094ff 2px solid;
+                    }
+                }
+            }
+
+            .xuanxk_bot {
+                height: 418px;
+                margin-top: 15px;
+                overflow: hidden;
+
+                .tj_bg {
+                    height: 410px;
+                    width: 100%;
+                    font-size: 12px;
+                    background: #fff;
+                    color: #666;
+                    font-family: arial, \5b8b\4f53;
+
+                    .colores {
+                        color: #ff1a3a;
+                    }
+
+                    .sizees {
+                        font-size: 18px;
+                    }
+
+                    .sizi {
+                        font-size: 12px;
+                    }
+
+
+                    .tj_bg_lf,
+                    .bg_ct_t4 {
+                        width: 239px;
+                        height: 100%;
+                        border-right: 1px solid #eee;
+                        text-align: center;
+
+                        i {
+                            font-style: normal;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            font-weight: bold;
+                            color: #333;
+                            margin: 10px 0;
+                        }
+
+                        img {
+                            width: 230px;
+                            height: 230px;
+                        }
+                    }
+
+                    .tj_bg_ct {
+                        width: 479px;
+                        height: 100%;
+
+                        .bg_ct_t2,
+                        .bg_ct_t1 {
+                            width: 239.5px;
+                            height: 210px;
+                            float: left;
+                            text-align: center;
+                            box-sizing: border-box;
+                            padding: 10px 0;
+
+                            img {
+                                width: 150px;
+                                height: 150px;
+                            }
+                        }
+
+                        .bg_ct_t1 {
+                            border-right: 1px solid #eee;
+                            box-sizing: border-box;
+                        }
+
+                        .bg_ct_t3 {
+                            float: left;
+                            width: 479px;
+                            height: 191px;
+                            border-top: 1px solid #eee;
+
+
+                            .wenzifud {
+                                float: right;
+                                width: 279px;
+                                height: 100%;
+                                padding: 20px 10px;
+                                box-sizing: border-box;
+                            }
+                        }
+                    }
+
+                    .tj_bg_rg {
+                        width: 478px;
+                        height: 100%;
+
+                        .bg_ct_t4 {
+                            float: left;
+                            border-left: 1px solid #eee;
+                            box-sizing: border-box;
+                            padding: 10px 0;
+                        }
+
+                        .bg_ct_t6 {
+                            border-top: 1px solid #eee;
+                            box-sizing: border-box;
+                        }
+
+                        .bg_ct_t6,
+                        .bg_ct_t5 {
+                            width: 239px;
+                            height: 205px;
+                            float: left;
+                            text-align: center;
+
+
+                            img {
+                                width: 150px;
+                                height: 150px;
+                            }
+                        }
+                    }
+
+                    .tj_bg_lf,
+                    .tj_bg_ct,
+                    .tj_bg_rg {
+                        float: left;
+                    }
+                }
+
+            }
+        }
+    }
+}

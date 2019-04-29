@@ -1,0 +1,17 @@
+#zhuce { height: 655px; }
+#zhuce #zhuce_hezi { width: 980px; height: 635px; border: 1px solid #C6E6F3; margin: 10px auto; }
+#zhuce #zhuce_hezi #hezi_neiron { width: 671px; height: 533px; margin: 0 auto; }
+#zhuce #zhuce_hezi #hezi_neiron #hezi_biaoti { height: 41px; width: 620px; background-image: url(../../images/zhuce.images/reg-bg.png); background-repeat: no-repeat; background-position: -162px -69px; margin-bottom: 37px; margin-top: 40px; margin-right: auto; margin-left: auto; }
+#zhuce #zhuce_hezi #hezi_neiron .hezi_hans { width: 550px; height: 55px; text-align: center; color: #666; }
+#zhuce #zhuce_hezi #hezi_neiron .hezi_hans .form_lis { width: 200px; height: 25px; float: left; text-align: right; font-size: 12px; line-height: 25px; color: #666; }
+#zhuce #zhuce_hezi #hezi_neiron .hezi_hans .form_input { width: 350px; height: 25px; float: right; text-align: left; }
+#zhuce #zhuce_hezi #hezi_neiron .hezi_hans .form_input .kuans { cursor: text; width: 200px; height: 20px; }
+#zhuce #zhuce_hezi #hezi_neiron .hezi_hans .form_input #yanzhenma { width: 50px; height: 20px; cursor: text; }
+#zhuce #zhuce_hezi #hezi_neiron .hezi_hans #xieyi { font-size: 12px; }
+#zhuce #zhuce_hezi #hezi_neiron .hezi_hans #xieyi input { vertical-align: middle; }
+#zhuce #zhuce_hezi #hezi_neiron .hezi_hans #xieyi span { color: #0080FF; }
+#zhuce #zhuce_hezi #hezi_neiron .hezi_hans .tishi { width: 550px; height: 20px; float: left; text-indent: 200px; font-size: 12px; }
+#zhuce #zhuce_hezi #hezi_neiron .hezi_hans #tijiao { width: 90px; height: 29px; background: url(../../images/zhuce.images/btn-reg.png) no-repeat; border: none; }
+#zhuce #zhuce_hezi #hezi_neiron .last_tis { font-size: 12px; }
+
+/*# sourceMappingURL=zhuce.css.map */
